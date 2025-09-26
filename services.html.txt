@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ROYAL STAR - Our Services</title>
+    <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@300;400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Allura&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <nav id="main-nav"> 
+        <div class="container">
+            <img src="images/placeholder-logo.png" alt="ROYAL STAR Logo" class="nav-logo">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    
+    <main style="padding-top: 100px;">
+        
+        <section id="services-hero" class="section bg-light-blue">
+            <div class="container text-center">
+                <h1 data-aos="fade-up" class="title" style="font-size: 3em;">Mastering Freight Transport Across Egypt</h1>
+                <p data-aos="fade-up" data-aos-delay="100" class="subtitle-text">
+                    We provide comprehensive land freight solutions, covering every port and industrial zone with a specialized fleet.
+                </p>
+                <a href="contact.html" class="cta-button primary-btn" data-aos="fade-up" data-aos-delay="200">Request a Quote Today</a>
+            </div>
+        </section>
+
+        <section id="detailed-services" class="section">
+            <div class="container">
+                
+                <div class="service-detail-block" id="container" data-aos="fade-right">
+                    <img src="images/placeholder-container.png" alt="Container Transport">
+                    <div class="text-content">
+                        <h3>Container Transport (Dry, Reefer, Flat Rack)</h3>
+                        <p>Our core competency lies in handling standard and specialized container logistics. We manage the secure and timely transport of Dry (standard), Reefer (refrigerated), and Flat Rack containers, ensuring all cargo types are managed under optimal conditions.</p>
+                        <ul>
+                            <li>Expert handling of various container sizes.</li>
+                            <li>Temperature-controlled transport for sensitive cargo.</li>
+                            <li>Secure tracking from port to final destination.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="service-detail-block reverse" id="heavy" data-aos="fade-left">
+                    <img src="images/placeholder-cargo.png" alt="Heavy Cargo Transport">
+                    <div class="text-content">
+                        <h3>Heavy Cargo and Oversized Equipment Transport</h3>
+                        <p>We specialize in the complex logistics required for moving heavy machinery and oversized equipment. Our team provides specialized route planning and permits to ensure compliance and safe passage for large-scale projects.</p>
+                        <ul>
+                            <li>Comprehensive route surveys and risk assessment.</li>
+                            <li>Handling of project cargo for industrial clients.</li>
+                            <li>Adherence to strict national safety regulations.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="service-detail-block" id="lowbed" data-aos="fade-right">
+                    <img src="images/placeholder-truck.png" alt="Low Bed Trucking">
+                    <div class="text-content">
+                        <h3>Low Bed Trucking for Specialized Cargo</h3>
+                        <p>Utilizing our dedicated fleet of low bed trailers, we ensure the safe and stable transport of high-value, heavy, or non-standard cargo that requires a lower center of gravity and easier loading/unloading.</p>
+                        <ul>
+                            <li>Ideal for heavy industrial parts and construction equipment.</li>
+                            <li>Increased stability and safety during transit.</li>
+                            <li>Professional loading and securing procedures.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="service-detail-block reverse" id="inland" data-aos="fade-left">
+                    <img src="images/placeholder-ports.png" alt="Inland Freight Operations">
+                    <div class="text-content">
+                        <h3>Inland Freight Operations Serving All Egyptian Ports</h3>
+                        <p>Our robust transport network connects major ports (Alexandria, Damietta, Sokhna, Port Said) to industrial zones and final destinations across Egypt, providing seamless nationwide reach.</p>
+                        <ul>
+                            <li>Direct service to all major Egyptian ports.</li>
+                            <li>Efficient coordination with port logistics.</li>
+                            <li>Full compliance with customs and transport regulations.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section id="footer-contact" class="section bg-dark-blue text-white">
+            </section>
+    
+    </main>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({ duration: 1000, once: true, });
+    </script>
+</body>
+</html>

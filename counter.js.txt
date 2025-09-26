@@ -1,0 +1,35 @@
+// counter.js
+
+const counter = (el, finalValue) => {
+    const duration = 2000; // 2 seconds
+    let startTimestamp = null;
+    const step = (timestamp) => {
+        if (!startTimestamp) startTimestamp = timestamp;
+        const progress = Math.min((timestamp - startTimestamp) / duration, 1);
+        el.innerText = Math.floor(progress * finalValue);
+        if (progress < 1) {
+            window.requestAnimationFrame(step);
+        } else {
+            // Format the final number (e.g., 4260 -> 4,260)
+            el.innerText = finalValue.toLocaleString('en-US'); 
+        }
+    };
+    window.requestAnimationFrame(step);
+};
+
+// Intersection Observer to trigger counter when element is visible
+const observer = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+        if (entry.isIntersecting) {
+            const el = entry.target;
+            const finalValue = parseInt(el.getAttribute('data-count'));
+            counter(el, finalValue);
+            observer.unobserve(el); // Stop observing once counted
+        }
+    });
+}, { threshold: 0.5 }); // Trigger when 50% of the element is visible
+
+// Only run this logic on the home page where the stats are present
+document.querySelectorAll('.stat-number').forEach(span => {
+    observer.observe(span);
+});

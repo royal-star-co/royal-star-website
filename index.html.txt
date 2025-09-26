@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ROYAL STAR - Home</title>
+    <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@300;400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Allura&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="initial-hero">
+        <div id="large-logo-container">
+            <img src="images/placeholder-logo.png" alt="ROYAL STAR Logo" id="large-logo">
+        </div>
+        <h1 class="hero-title" data-aos="fade-up" data-aos-delay="500">
+            Your Reliable Land Freight <span class="accent-text">Partner</span>
+        </h1>
+        <p class="hero-subtitle" data-aos="fade-up" data-aos-delay="700">
+            Leveraging our 6 years of expertise to drive your logistics to new heights across Egypt.
+        </p>
+        <div class="hero-actions" data-aos="fade-up" data-aos-delay="900">
+            <a href="services.html" class="cta-button primary-btn">Explore Solutions</a>
+            <a href="contact.html" class="cta-button secondary-btn">Contact Sales</a>
+        </div>
+        <div class="scroll-down-hint">Scroll Down</div>
+    </header>
+
+    <nav id="main-nav" class="nav-hidden">
+        <div class="container">
+            <img src="images/placeholder-logo.png" alt="ROYAL STAR Logo" class="nav-logo">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    
+    <main>
+        
+        <section id="quick-features" class="section">
+            <div class="container feature-grid">
+                </div>
+        </section>
+
+        <section id="advantage" class="section bg-light-blue">
+             </section>
+
+        <section id="home-services" class="section">
+             </section>
+
+        <section id="achievements" class="section bg-dark-blue text-white">
+             </section>
+
+        <section id="news" class="section">
+             </section>
+
+        <section id="footer-contact" class="section bg-dark-blue text-white">
+             </section>
+    
+    </main>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({ duration: 1000, once: true, });
+    </script>
+    <script src="script.js"></script> 
+    <script src="counter.js"></script> 
+</body>
+</html>

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ROYAL STAR - About Us</title>
+    <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@300;400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Allura&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav id="main-nav"> 
+        <div class="container">
+            <img src="images/placeholder-logo.png" alt="ROYAL STAR Logo" class="nav-logo">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    
+    <main style="padding-top: 100px;">
+        
+        <section id="about" class="section">
+            <div class="container">
+                <h2 data-aos="fade-up" class="title">A Journey Driven by Excellence</h2>
+                <p data-aos="fade-up" data-aos-delay="100">Royal Star stands as a symbol of reliability and precision in land freight transportation.</p>
+                <p data-aos="fade-up" data-aos-delay="200">As a proud member of **Orient Group**, we leverage the strength of a diversified network comprising five specialized companies to deliver end-to-end transport solutions with unmatched efficiency.</p>
+                <p data-aos="fade-up" data-aos-delay="300">With **six years of presence** in the Egyptian market, Royal Star has redefined how cargo moves across Egypt, from Alexandria to Port Said.</p>
+            </div>
+        </section>
+
+        <section id="vision-mission" class="section bg-light-blue">
+            <div class="container" data-aos="fade-up">
+                <div class="vision-box" data-aos="fade-right">
+                    <h3>Our Vision</h3>
+                    <p>To lead Egypt's inland transportation sector by delivering innovative, secure, and sustainable logistics.</p>
+                </div>
+                <div class="mission-box" data-aos="fade-left">
+                    <h3>Our Mission</h3>
+                    <p>To ensure seamless cargo movement across Egypt, enhancing the logistics landscape through professionalism, customer-centricity, and continuous innovation.</p>
+                </div>
+            </div>
+        </section>
+        
+        <section id="values" class="section">
+            <div class="container">
+                <h2 data-aos="fade-up" class="title">Our Core Values & Expertise</h2>
+                <div class="values-grid">
+                    <div class="value-item" data-aos="fade-up"><p>Unwavering **Reliability**</p></div>
+                    <div class="value-item" data-aos="fade-up" data-aos-delay="100"><p>**Operational Excellence**</p></div>
+                    <div class="value-item" data-aos="fade-up" data-aos-delay="200"><p>**Integrity** in Every Action</p></div>
+                    <div class="value-item" data-aos="fade-up" data-aos-delay="300"><p>Commitment to **Customer Success**</p></div>
+                    <div class="value-item" data-aos="fade-up" data-aos-delay="400"><p>**Fleet Power** & GPS Tracking</p></div>
+                    <div class="value-item" data-aos="fade-up" data-aos-delay="500"><p>**24/7** Expert Support</p></div>
+                </div>
+            </div>
+        </section>
+        
+        <section id="footer-contact" class="section bg-dark-blue text-white">
+            </section>
+    
+    </main>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({ duration: 1000, once: true, });
+    </script>
+</body>
+</html>

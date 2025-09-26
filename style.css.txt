@@ -1,0 +1,87 @@
+/* --- SERVICES PAGE STYLES --- */
+.service-detail-block {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    margin-bottom: 80px;
+    padding: 30px;
+    background-color: var(--white);
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+}
+
+.service-detail-block img {
+    width: 40%;
+    max-width: 400px;
+    height: auto;
+    border-radius: 8px;
+    /* Placeholder image path */
+    content: url("https://via.placeholder.com/400x300/0048aa/ffffff?text=SERVICE+IMAGE"); 
+}
+
+.service-detail-block .text-content {
+    width: 60%;
+}
+
+.service-detail-block h3 {
+    color: var(--primary-color);
+    font-size: 2em;
+    margin-bottom: 15px;
+}
+
+.service-detail-block ul {
+    list-style: disc;
+    margin-left: 20px;
+    padding-top: 10px;
+    color: var(--text-color);
+}
+
+/* Reverse layout for alternating design */
+.service-detail-block.reverse {
+    flex-direction: row-reverse;
+}
+
+/* --- CONTACT PAGE STYLES --- */
+.contact-header {
+    font-size: 1.8em;
+    color: var(--primary-color);
+    margin-bottom: 10px;
+}
+
+.map-link {
+    display: inline-block;
+    color: var(--secondary-color);
+    margin-top: 10px;
+    font-weight: 600;
+}
+
+.support-features {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+    margin-top: 50px;
+}
+
+.feature-box {
+    background-color: var(--white);
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+    border-top: 4px solid var(--secondary-color);
+}
+
+.feature-box h4 {
+    color: var(--primary-color);
+    margin-bottom: 10px;
+}
+
+/* Media Query for Mobile Responsiveness */
+@media (max-width: 768px) {
+    .service-detail-block, .service-detail-block.reverse {
+        flex-direction: column; /* Stack vertically on small screens */
+    }
+    
+    .service-detail-block img, .service-detail-block .text-content {
+        width: 100%; /* Full width on mobile */
+    }
+}

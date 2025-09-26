@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ROYAL STAR - Contact Us</title>
+    <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@300;400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Allura&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <nav id="main-nav"> 
+        <div class="container">
+            <img src="images/placeholder-logo.png" alt="ROYAL STAR Logo" class="nav-logo">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    
+    <main style="padding-top: 100px;">
+        
+        <section id="contact-hero" class="section bg-light-blue text-center">
+            <div class="container">
+                <h1 data-aos="fade-up" class="title" style="font-size: 3em;">Get in Touch</h1>
+                <p data-aos="fade-up" data-aos-delay="100" class="subtitle-text">
+                    Our team is available 24/7 to answer your inquiries and coordinate your next shipment.
+                </p>
+            </div>
+        </section>
+
+        <section id="contact-details" class="section">
+            <div class="container">
+                
+                <div class="contact-info-grid">
+                    <div class="info-item" data-aos="fade-up">
+                        <h3 class="contact-header">Our Main Office</h3>
+                        <p>9 Orabi Sq., El Mansheya-Alexandria, Egypt</p>
+                        <a href="https://maps.app.goo.gl/" target="_blank" class="map-link">View on Map</a>
+                    </div>
+                    <div class="info-item" data-aos="fade-up" data-aos-delay="100">
+                        <h3 class="contact-header">Call Us</h3>
+                        <p>Tel: 03-4889820</p>
+                        <p>Mobile (Management): 01006352758</p>
+                    </div>
+                    <div class="info-item" data-aos="fade-up" data-aos-delay="200">
+                        <h3 class="contact-header">Send an Email</h3>
+                        <p>General Inquiries: info@royalstar-eg.com (Placeholder)</p>
+                        <p>Sales/Management: Nour.ossama@royalstar-eg.com</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="support-commitment" class="section bg-light-blue">
+            <div class="container text-center">
+                <h2 data-aos="fade-up" class="title">Commitment to 24/7 Support</h2>
+                <p data-aos="fade-up" data-aos-delay="100" class="subtitle-text">
+                    Your cargo is our priority. We offer unmatched coordination and support to ensure a seamless experience.
+                </p>
+                <div class="support-features">
+                    <div class="feature-box" data-aos="zoom-in">
+                        <h4>Real-Time Updates</h4>
+                        <p>Instant tracking and status notifications.</p>
+                    </div>
+                    <div class="feature-box" data-aos="zoom-in" data-aos-delay="100">
+                        <h4>Expert Consultation</h4>
+                        <p>Guidance on permits and specialized cargo handling.</p>
+                    </div>
+                    <div class="feature-box" data-aos="zoom-in" data-aos-delay="200">
+                        <h4>Problem Resolution</h4>
+                        <p>Immediate response and resolution for any issues.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section id="footer-contact" class="section bg-dark-blue text-white">
+            </section>
+    
+    </main>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({ duration: 1000, once: true, });
+    </script>
+</body>
+</html>
