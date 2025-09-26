@@ -82,6 +82,8 @@
     }
     
     .service-detail-block img, .service-detail-block .text-content {
+        /*Fix*/
         width: 100%; /* Full width on mobile */
     }
 }
+
